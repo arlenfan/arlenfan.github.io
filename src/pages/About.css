@@ -1,0 +1,130 @@
+.about-container {
+  max-width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 6rem 0;
+  color: #1f2937;
+  margin: -2rem -2rem 0 -2rem;
+  position: relative;
+  background: #fafafa;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.highlight {
+  color: #2563eb;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: #6b7280;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  color: #4b5563;
+}
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.social-link {
+  color: #6b7280;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover {
+  color: #2563eb;
+  background: rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+}
+
+.social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Future content sections - currently commented out */
+/*
+.content-section {
+  padding: 4rem 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.posts-grid, .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.publications-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+*/
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    margin: -1rem -1rem 0 -1rem;
+    padding: 4rem 0;
+  }
+  
+  .hero-content {
+    padding: 0 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .social-links {
+    gap: 1.5rem;
+  }
+}
